@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Cyprus</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--  Navigation  (Навигационная панель) -->
+    <div class="above-nav">
+        <div class="phone-section">
+            <ul class="above-nav-phones">
+                <li>
+                    <a href="#">
+                        <img src="img/phone.svg" alt="phone-call">
+                    </a>
+                </li>
+                <li>+7 (499) 404-09-54</li>
+                <li>/</li>
+                <li>+38 (094) 712-00-02</li>
+                <li><a href="#" class="callback">Перезвонить вам?</a></li>
+            </ul>
+        </div>
+        <div class="media-section">
+            <div class="language-selection">
+                <h5><a href="#">Рус </a><a href="#"><img src="/img/dropdown-arrow.svg" class="language-arrow dropdown-lang"></a></h4>
+                <h5 class="dropdown-content-lang"><a href="#">Анг</a></h5>    
+            </div>
+            <div class="media-icons">
+                <a href="#"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="img/instargam.svg" alt="instagram"></a>
+                <a href="#"><img src="img/youtube.svg" alt="youtube"></a>          
+            </div>
+        </div>
+    </div>
+    <nav class="navigation-panel">   
+        <div class="nav-links-section">
+            <a class="navbar-logo" href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <ul class="nav-items">
+                <li><a href="#">О компании</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#" id="dropdownLink">Недвижимость <img id="dropdownArrow" src="/img/dropdown-arrow.svg" alt="arrow"></a>
+                    <div class="dropdown-content">
+                        <a href="#">Апартаменты</a>
+                        <a href="#">Виллы</a>
+                        <a href="#">Другое</a>
+                    </div>
+                    </div>      
+                </li>
+                <li><a href="#">О Северном Кипре</a></li>
+                <li><a href="#">Клиентам</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li>
+                    <button type="button" class="btn nav-btn">Узнать больше</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Navigation  (Конец навигационной панели)  -->
+
+
+
+    <!-- Banner Section  (Баннер-Слайдер)  -->
+    <div class="banner-container swiper-container swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="text-section">
+                    <h3 class="banner-heading">Наслаждайтесь Средиземным морем, ласковым<br> солнцем и песчаными пляжами круглый год!</h3>
+                    <p class="lead official-registered"><a href="#">Официально зарегистрированная</a> на Кипре компания</p>
+                    <h2 class="display-4 banner-heading-2">Недвижимость Северного Кипра</h2>
+                    <h2 class="display-4 banner-subheading">без посредников</h2>
+                    <button type="buton" class="btn banner-btn">Подберем для вас лучшее</button>
+                </div>
+                <div class="banner-icons">
+                    <div>
+                        <img src="img/building-house.svg" alt="cheap price building"> Дешевая недвижимость
+                    </div>
+                    <div>
+                        <img src="img/eco.svg" alt="eco clean"> Чистая экология
+                    </div>
+                    <div>
+                        <img src="img/safety.svg" alt="safe country"> Безопасная страна
+                    </div>     
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="text-section">
+                    <h3 class="banner-heading">Наслаждайтесь Средиземным морем, ласковым<br> солнцем и песчаными пляжами круглый год!</h3>
+                    <p class="lead official-registered"><a href="#">Официально зарегистрированная</a> на Кипре компания</p>
+                    <h2 class="display-4 banner-heading-2">Недвижимость Северного Кипра</h2>
+                    <h2 class="display-4 banner-subheading">без посредников</h2>
+                    <button type="buton" class="btn banner-btn">Подберем для вас лучшее</button>
+                </div>
+                <div class="banner-icons">
+                    <div>
+                        <img src="img/building-house.svg" alt="cheap price building"> Дешевая недвижимость
+                    </div>
+                    <div>
+                        <img src="img/eco.svg" alt="eco clean"> Чистая экология
+                    </div>
+                    <div>
+                        <img src="img/safety.svg" alt="safe country"> Безопасная страна
+                    </div>     
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next swiper-button-next1"></div>
+        <div class="swiper-button-prev swiper-button-prev1"></div>
+    </div>
+    <!-- End Of Banner Section  (Конец Баннера-Слайдера)  -->
+
+
+    <!--  Filter Section  (Фильтр)  -->
+    <form class="filter-form">  
+            <select class="form-control form-control-lg filter-form-control">
+                <option>Город</option>
+            </select>
+            <select class="form-control form-control-lg filter-form-control">
+                <option>Тип</option>
+            </select>
+            <select class="form-control form-control-lg filter-form-control">
+                <option>Комнаты</option>
+            </select>
+            <select class="form-control form-control-lg filter-form-control">
+                <option>Цена</option>
+            </select> 
+            <div class="filter-search">
+                <a href="#">
+                    <img src="img/mdi-light_magnify.svg" alt="search">
+                </a>   
+            </div>
+    </form>
+
+    
+    <!--  End Of Filter Section  (Конец Фильтра)  -->
+
+
+
+    <!-- Why work with us and hot offers  (Почему выгодно работать с нами и горячие предложения)  -->
+    <div class="why-we-container">
+        <h4 class="display-5 text-center">Почему выгодно работать с нами?</h4>
+        <div class="why-cards">
+            <a href="#">
+                <div class="why-card">
+                    <p class="lead why-card-top"><span class="make-it-bolder smaller-bolder">недвижимость</span><br> <span class="make-it-bolder">от 29 000<br> евро</span></p>
+                    <p class="lead why-card-bottom">Приобретайте недвижимость по цене на 20-30% ниже, чем у посредников</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="why-card orange">
+                    <p class="lead why-card-top"><span class="make-it-bolder orange-bolder">Рассрочка<br> под 0%</span></p>
+                    <p class="lead why-card-bottom">Приобретайте жилье в рассрочку на срок до 5 лет с первым взносом 25%</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="why-card">
+                    <p class="lead why-card-top"><span class="make-it-bolder">Кредит<br> до 10 лет</span></p>
+                    <p class="lead why-card-bottom">Являемся прямым кредитором с уставным капиталом 
+                        10 000 000 лир</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="why-card">
+                    <p class="lead why-card-top"><span class="make-it-bolder">Прибыль<br> до 12-15%</span></p>
+                    <p class="lead why-card-bottom">В год от стоимости жилья при сдаче в аренду</p>
+                </div>
+            </a> 
+        </div>
+
+    <!--  Hot Offers Cards  -->
+            <h4 class="display-5 text-center">Горячие предложения</h4>
+            <div class="container">
+                <div class="row content d-flex justify-content-center">
+                    <div class="offer-cards swiper-container swiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide offer-cards-slide">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment1.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">48 500 $</span></h5>
+                                        <p class="card-text">1-комнатные апартаменты 41м² в Фамагуста/Алсанджак</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">41 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">1</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">500 м</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment2.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">87 300 $</span></h5>
+                                        <p class="card-text">2-комнатные апартаменты 70м² в Кирения/Коршияка</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">70 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">900 м</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment3.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">165 500 $</span></h5>
+                                        <p class="card-text">4-комнатные апартаменты 187м² в Кирения/Алсандж</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">187 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">4</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">1,3 км</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment4.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">358 900 $</span></h5>
+                                        <p class="card-text">5-комнатные апартаменты 211м² в Кирения/Бахчели</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">211 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">5</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">4 км</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide offer-cards-slide">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment1.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">48 500 $</span></h5>
+                                        <p class="card-text">1-комнатные апартаменты 41м² в Фамагуста/Алсанджак</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">41 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">1</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">500 м</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment2.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">87 300 $</span></h5>
+                                        <p class="card-text">2-комнатные апартаменты 70м² в Кирения/Коршияка</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">70 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">900 м</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment3.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">165 500 $</span></h5>
+                                        <p class="card-text">4-комнатные апартаменты 187м² в Кирения/Алсандж</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">187 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">4</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">1,3 км</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img src="img/appartment4.png" alt="appartment">
+                                    <div class="mark-emblem"><span id="typeOfHouse">Апартаменты</span></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><span class="appartment-price">358 900 $</span></h5>
+                                        <p class="card-text">5-комнатные апартаменты 211м² в Кирения/Бахчели</p>
+                                    </div>
+                                    <div class="appartment-desc">
+                                        <div class="desc-element">
+                                            <div class="card-left">Площадь</div>
+                                            <div class="card-right">211 м2</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">Спален</div>
+                                            <div class="card-right">5</div>
+                                        </div>
+                                        <div class="desc-element">
+                                            <div class="card-left">До моря</div>
+                                            <div class="card-right">4 км</div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-next2"></div>
+                        <div class="swiper-button-prev swiper-button-prev2"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="all-object-btn text-center">
+                <button type="button" class="btn btn-light objects-btn">Все наши объекты</button>
+            </div>
+    </div>
+    
+    <!-- End Of Why work with us and hot offers  (Конец Почему выгодно работать с нами и горячие предложения)  -->
+
+
+    <!--  Form Section  (Форма Заявки)  -->
+
+    <div class="form-container">
+        <div class="form-section">
+            <h3 class="display-5 text-center">Заполните заявку и примите участие<br> в бесплатном ознакомительном туре!</h3>
+            <p class="lead text-center">(трансфер, проживание, экскурсии)</p>
+            <form class="form-inline d-flex justify-content-center">
+                <input type="text" class="form-control" name="name" placeholder="Ваше Имя*">
+                <input type="text" class="form-control" name="phone-nubmer" placeholder="Номер телефона*">
+                <button type="submit" class="btn btn-light form-btn">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <!--  End Of Form Section  (Конец Формы Заявки)  -->
+
+    
+    <!--  Bright Future Section  (Инвестируйте в Светлое Будущее)  -->
+    <div class="bright-future-container">
+        <h4 class="display-5 text-center">Инвестируйте в светлое будущее,<br> приобретая жилье на Северном Кипре</h4>
+        <div class="future-cards">
+            <a href="#">
+                <div class="future-card">
+                    <div class="future-top"><span class="make-it-bolder">Не требуется легализации ваших денег</span></div>
+                    <div class="future-bottom">Никто не будет интересоваться происхождением ваших денег</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="future-card future-orange">
+                    <div class="future-top"><span class="make-it-bolder">Оформляйте вид на жительство за 2 недели!</span></div>
+                    <div class="future-bottom">Получите вид на жительство при покупке недвижимости на Северном Кипре.  Забудьте
+                        о  необходимости оформлять визу</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="future-card">
+                    <div class="future-top"><span class="make-it-bolder">Английское образование
+                        по доступной цене</span></div>
+                    <div class="future-bottom">Подарите своим детям возможность получить английское образование по цене от 2500 евро в год! Это откроет новые перспективы для получения
+                        работы за границей</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="future-card">
+                    <div class="future-top"><span class="make-it-bolder">Спокойствие и безопасность для всей семьи</span></div>
+                    <div class="future-bottom">Северный Кипр – по прежнему остается местом, где можно открывать двери дома нараспашку, 
+                    как в былые времена, оставлять свой автомобиль на парковке без запирания на замок.</div>
+                </div>
+            </a> 
+            <a href="#">
+                <div class="future-card">
+                    <div class="future-top"><span class="make-it-bolder">Медицина по Европейским стандартам</span></div>
+                    <div class="future-bottom">С.  Кипр  имеет новейшее медицинское оборудование в соответствии европейским стандартам.</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="future-card">
+                    <div class="future-top"><span class="make-it-bolder">Экология на С. Кипре одна из самых лучших в мире.</span></div>
+                    <div class="future-bottom">Благодаря песочным пляжам, чистому морю, доступным ценам, низкому уровню преступности и историческим достопримечательностям, 
+                        Северный Кипр идеально подходит для семейного отдыха и жизни.</div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="future-card">
+                    <div class="future-top"><span class="make-it-bolder">Юридическая «чистота» недвижимости</span></div>
+                    <div class="future-bottom">Покупайте жилье с проверенной документацией</div>
+                </div>
+            </a>
+            <a href="#" class="black-card-link">
+                <div class="future-card black-card">
+                    <div class="future-top-black"><span class="make-it-bolder"></span>Интересно?</div>
+                    <div class="future-middle-black">Больше информации о преимуществах недвижимости на Северном Кипре</div>
+                    <div class="future-bottom-black"><a href="#">Узнать</a> <a href="#">больше</a></div>
+                </div>
+            </a>  
+        </div>
+    </div>
+    <!--  End of Bright Future :( (Конец ивестиций в светлое будущее)-->
+
+
+    <!--  Best Offers  (Лучшие Предложения)  -->
+    <h4 class="display-5 text-center">Лучшие предложения</h4>
+    <div class="container">
+        <div class="row content d-flex justify-content-center">
+            <div class="offer-cards swiper-container swiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide offer-cards-slide">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa1.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">428 500 $</span></h5>
+                                <p class="card-text">4-комнатная вилла в Фамагуста/Алсанджак</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">241 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">1</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">500 м</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa2.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">187 300 $</span></h5>
+                                <p class="card-text">3-комнатная вилла в Кирения/Коршияка</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">170 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">900 м</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa3.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">465 500 $</span></h5>
+                                <p class="card-text">5-комнатная вилла в Кирения/Алсандж</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">187 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">4</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">1,3 км</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa4.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">658 900 $</span></h5>
+                                <p class="card-text">6-комнатная вилла в Кирения/Бахчели</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">211 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">5</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">4 км</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide offer-cards-slide">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa1.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">428 500 $</span></h5>
+                                <p class="card-text">4-комнатная вилла в Фамагуста/Алсанджак</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">241 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">1</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">500 м</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa2.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">187 300 $</span></h5>
+                                <p class="card-text">3-комнатная вилла в Кирения/Коршияка</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">170 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">900 м</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa3.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">465 500 $</span></h5>
+                                <p class="card-text">5-комнатная вилла в Кирения/Алсандж</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">187 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">4</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">1,3 км</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/villa4.png" alt="appartment">
+                            <div class="mark-emblem-villa"><span id="typeOfHouse">Вилла</span></div>
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="appartment-price">658 900 $</span></h5>
+                                <p class="card-text">6-комнатная вилла в Кирения/Бахчели</p>
+                            </div>
+                            <div class="appartment-desc">
+                                <div class="desc-element">
+                                    <div class="card-left">Площадь</div>
+                                    <div class="card-right">211 м2</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">Спален</div>
+                                    <div class="card-right">5</div>
+                                </div>
+                                <div class="desc-element">
+                                    <div class="card-left">До моря</div>
+                                    <div class="card-right">4 км</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-dark card-btn">Подробнее</a>
+                        </div>
+                    </div>  
+                </div>  
+                    <div class="swiper-button-next swiper-button-next2"></div>
+                    <div class="swiper-button-prev swiper-button-prev2"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="all-object-btn text-center">
+        <button type="button" class="btn btn-light">Все наши объекты</button>
+    </div>
+    <!--  End of best offers  (Конец лучших предложений)  -->
+
+
+    <!--  Gallery  -->
+        <div class="gallery-container">
+            <div class="left-side">
+                <div class="new-life">Начните<br> новую жизнь<br> возле моря<br> уже сегодня</div>
+            </div>
+            <div class="right-side">
+                <div class="upper-row">
+                    <div class="for-family"><h5>Идеальное место<br> для семьи с детьми</h5></div>
+                    <div class="relax"><h5>Прекрасно<br> для<br> отдыха</h5></div>
+                </div>
+                <div class="lower-row">
+                    <div class="search-more">
+                        <div class="left-lower-low">
+                            <h3 class="search-header">Не нашли,<br> что<br> искали?</h5>
+                        </div>
+                        <div class="right-lower-low">
+                            <p class="lead search-text">Мы проконсультируем вас по всем<br> вопросам
+                                и подберем недвижимость<br> под ваши пожелания</p>
+                            <button type="button" class="btn btn-light form-btn form-gallery-btn">Оставить заявку</button>
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+        </div> 
+    <!--  End of Gallery  -->
+
+    <!--  Feedback  (Отзывы)  -->
+    <h4 class="display-5 text-center">Отзывы счастливых клиентов</h4>
+    <div class="container">
+        <div class="row content d-flex justify-content-center">
+            <div class="swiper-container swiper4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide review-card-slide">
+                        <div class="card review-card" style="width: 30rem;">
+                            <div class="card-body">
+                              <h5 class="card-title user-name">
+                                <div class="name-and-photo">
+                                    <img src="/img/avatar2.png" alt="user-image">
+                                    <div class="name">
+                                        Иван Иванович
+                                    </div>  
+                                </div>      
+                                <div class="stars">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                </div> 
+                                </h5>
+                                <hr>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, magnam rerum molestiae suscipit non doloremque ipsa inventore adipisci illo dolor facere numquam et delectus quibusdam esse mollitia nemo dolorem vitae!</p>
+                            </div>
+                        </div>
+                        <div class="card review-card" style="width: 30rem;">
+                            <div class="card-body">
+                              <h5 class="card-title user-name">
+                                <img src="/img/avatar.png" alt="user-image">
+                                <div class="name">
+                                    Елена Петрова
+                                </div>  
+                                <div class="stars">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                    <img src="/img/star.svg" alt="star">
+                                </div> 
+                                </h5>
+                                <hr>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur voluptatum nisi eaque voluptates, dolorum, laborum rem fugiat quos quia accusamus vitae adipisci?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-button-next2"></div>
+                <div class="swiper-button-prev swiper-button-prev2"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!--  End OF Feedback (Конец отзывов)-->
+
+
+    <!-- North Cyprus Facilities (Недвижимость на Северно Кипре) -->
+    <section class="container">
+        <h4 class="display-5 text-center">Недвижимость на Северном Кипре</h4>
+        <div class="special-text">
+          <p>
+            Seitan everyday carry leggings try-hard, hammock food truck thundercats jean shorts gentrify pinterest gastropub trust fund kinfolk scenester schlitz. Hammock pabst +1 four loko ennui. Before they sold out pickled crucifix umami kickstarter craft beer,
+            cronut flexitarian austin post-ironic whatever single-origin coffee. Brooklyn franzen authentic, try-hard DIY craft beer sartorial hella actually. Four loko ramps celiac 3 wolf moon neutra. Food truck leggings pork belly disrupt echo park four loko.
+            Deep v paleo shabby chic, 90's vinyl tofu vice seitan authentic whatever skateboard put a bird on it semiotics readymade sartorial.
+          </p>
+          <p>
+            Vice pop-up farm-to-table semiotics. Shabby chic ugh swag migas brooklyn jean shorts narwhal flannel, selfies wolf umami. Flexitarian chillwave bicycle rights tacos, trust fund selvage synth waistcoat. Mlkshk yr hashtag yuccie shoreditch. 3 wolf moon
+            humblebrag gastropub, intelligentsia gochujang tilde farm-to-table PBR&B fap vinyl pinterest irony 8-bit. Drinking vinegar XOXO hella portland ugh, man bun banjo kitsch kale chips iPhone fashion axe kinfolk chia. Intelligentsia ennui affogato cornhole,
+            etsy roof party quinoa pug thundercats franzen tacos sartorial cardigan.
+          </p>
+              <p>
+            Vice pop-up farm-to-table semiotics. Shabby chic ugh swag migas brooklyn jean shorts narwhal flannel, selfies wolf umami. Flexitarian chillwave bicycle rights tacos, trust fund selvage synth waistcoat. Mlkshk yr hashtag yuccie shoreditch. 3 wolf moon
+            humblebrag gastropub, intelligentsia gochujang tilde farm-to-table PBR&B fap vinyl pinterest irony 8-bit. Drinking vinegar XOXO hella portland ugh, man bun banjo kitsch kale chips iPhone fashion axe kinfolk chia. Intelligentsia ennui affogato cornhole,
+            etsy roof party quinoa pug thundercats franzen tacos sartorial cardigan.
+          </p>
+              <p>
+            Vice pop-up farm-to-table semiotics. Shabby chic ugh swag migas brooklyn jean shorts narwhal flannel, selfies wolf umami. Flexitarian chillwave bicycle rights tacos, trust fund selvage synth waistcoat. Mlkshk yr hashtag yuccie shoreditch. 3 wolf moon
+            humblebrag gastropub, intelligentsia gochujang tilde farm-to-table PBR&B fap vinyl pinterest irony 8-bit. Drinking vinegar XOXO hella portland ugh, man bun banjo kitsch kale chips iPhone fashion axe kinfolk chia. Intelligentsia ennui affogato cornhole,
+            etsy roof party quinoa pug thundercats franzen tacos sartorial cardigan.
+          </p>
+        </div>
+        <button class="button expand-button">
+          Больше
+        </button>
+    </section>
+    
+    
+    <!-- End Of North Cyprus Facilities (Конец секции Недвижимость на Северном Кипре) -->
+
+
+    <!--  Footer  -->
+    <footer>
+        <div class="footer-container container-fluid">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3">
+                    <h6>Наши контакты</h6>
+                    <p>Patamic 2, Royal Sun Residence<br>
+                        Trikomo, Northern Cyprus, 99850<br>
+                        +7 (800) 256-6-267<br>
+                        +7 (499) 372-0-56<br>
+                        +380 (94) 478-28-45<br>
+                        <a href="#" class="footer-email">hello@orange-cyprus.com</a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Каталог объектов</h6>
+                    <p>
+                        <a href="#">Апартаменты</a><br>
+                        <a href="#">Аренда</a><br>
+                        <a href="#">Бизнес на продажу</a><br>
+                        <a href="#">Виллы</a><br>
+                        <a href="#">Земельные участки</a><br>
+                        <a href="#">Обустройство недвижимости</a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Дополнительные услуги</h6>
+                    <p>
+                        <a href="#">Ознакомительный тур</a><br>
+                        <a href="#">Меблировка</a><br>
+                        <a href="#">Ландшафтные работы</a><br>
+                        <a href="#">Строительство</a><br>
+                        <a href="#">Страхование</a><br>
+                        <a href="#">Управление недвижимостью</a>
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Подписаться на рассылку</h6>
+                    <div class="footer-form">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <button type="button" class="btn btn-light footer-btn">Подписаться</button>
+                    </div>    
+                    <p>2020 Все права защищены<br>
+                        Сделан в <a href="#">SEO-Design</a>
+                    </p>
+                        
+                </div>
+            </div>   
+        </div>
+    </footer>
+    <!--  End Of Footer  -->
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
